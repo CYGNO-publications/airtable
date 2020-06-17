@@ -1,21 +1,57 @@
-import os,optparse
+import os,optparse,json
 
+
+def getAirtableRecords():
+    # write the API command
+    apistring = 'curl "https://api.airtable.com/v0/app2N9vfJjQQCWp7K/papers?maxRecords=3&view=Grid%20view" -H "Authorization: Bearer keyl5bKwb92iLsi0R"'
+    apilist = 'getlist.sh'
+    apish = open(apilist,'w')
+    apish.write(apistring)
+    apish.close()
+
+    query_result = 'records.js'
+    os.system('source {cmd} > {outf}'.format(cmd=apilist,outf=query_result))
+
+    with open(query_result) as json_file:
+        records = json.load(json_file)
+    os.system('rm '+apilist)
+    os.system('rm '+query_result)
+    return records
+
+def getRecordHash(paper):
+    data = getAirtableRecords()
+
+    rcdHash = None
+    for rcd in data['records']:
+        if rcd['fields']['Paper ID']==paper:
+            rcdHash=rcd['id']
+            break
+    print("===> Hash for Paper ID ",paper," = ",rcdHash)
+    return rcdHash
+    
+        
+    
 def writeAirtableAPI(shfile,paper,version):
+
+    # first get the id of the record corresponding to the paper ID
+    hashrcd = getRecordHash(paper)
+    
     apistring = '''curl -v -X PATCH https://api.airtable.com/v0/app2N9vfJjQQCWp7K/papers \
     -H "Authorization: Bearer keyl5bKwb92iLsi0R" \
     -H "Content-Type: application/json" \
     --data '{{ "records": [
     {{
-    "id": "recH7CiQZc0xppAeV",
+    "id": "{HASH}",
     "fields": {{
     "Paper ID": "{PAPER}",
     "git url": "https://github.com/CYGNO-publications/{PAPER}/tree/{VERSION}",
-    "Latest version": "https://github.com/CYGNO-publications/LEMON-20-001/blob/{VERSION}/{PAPER}-{VERSION}.pdf"
+    "Latest version": "https://github.com/CYGNO-publications/{PAPER}/blob/{VERSION}/{PAPER}-{VERSION}.pdf"
     }}
     }}
     ]
     }}'
-    '''.format(PAPER=paper,
+    '''.format(HASH=hashrcd,
+               PAPER=paper,
                VERSION=version)
     sh = open('api.sh','w')
     sh.write(apistring)

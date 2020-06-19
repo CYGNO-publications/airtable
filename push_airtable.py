@@ -3,7 +3,7 @@ import os,optparse,json
 
 def getAirtableRecords():
     # write the API command
-    apistring = 'curl "https://api.airtable.com/v0/app2N9vfJjQQCWp7K/papers?maxRecords=3&view=Grid%20view" -H "Authorization: Bearer keyl5bKwb92iLsi0R"'
+    apistring = 'curl "https://api.airtable.com/v0/app2N9vfJjQQCWp7K/papers?maxRecords=1000&view=Grid%20view" -H "Authorization: Bearer keyl5bKwb92iLsi0R"'
     apilist = 'getlist.sh'
     apish = open(apilist,'w')
     apish.write(apistring)

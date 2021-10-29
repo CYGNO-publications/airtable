@@ -2,7 +2,7 @@
 # Format is:
 # First Name | Middle Name | Last Name   | e-mail | Institution 1 | Institution 2 ...
 # ========================================================================================
-Fernando           | Domingues | Amaro       | famaro@uc.pt | Department of Physics, University of Coimbra, 3004-516 Coimbra, Portugal 
+Fernando           | Domingues | Amaro       | famaro@uc.pt | LIBPhys, Department of Physics, University of Coimbra, 3004-516 Coimbra, Portugal 
 Elisabetta         |       | Baracchini  | elisabetta.baracchini@gssi.it | Gran Sasso Science Institute, 67100, L'Aquila, Italy | Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali del Gran Sasso, 67100, Assergi, Italy
 Luigi              |       | Benussi     | luigi.benussi@lnf.infn.it  | Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali  di Frascati,  00044, Frascati, Italy
 Stefano            |       | Bianco      | stefano.bianco@lnf.infn.it | Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali  di Frascati,  00044, Frascati, Italy
@@ -21,14 +21,14 @@ Francesco          |        | Iacoangeli | Francesco.iacoangeli@roma1.infn.it | 
 Herman             | Pessoa | Lima J\’unior | hlima@cbpf.br | Centro Brasileiro de Pesquisas Físicas, Rio de Janeiro 22290-180, RJ, Brazil
 Amaro              | da Silva | Lopes J\’unior | silva.lopes@ufjf.edu.br | Universidade Federal de Juiz de Fora, Faculdade de Engenharia, 36036-900, Juiz de Fora, MG, Brasil
 Giovanni           |        | Maccarrone | giovanni.maccarrone@lnf.infn.it | Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali  di Frascati,  00044, Frascati, Italy
-Rui Daniel         | Passos | Mano | RDPMano@uc.pt | LIBPhys, Department of Physics, University of Coimbra, 3004-516 Coimbra, Portugal
+Rui          | Daniel Passos | Mano | RDPMano@uc.pt | LIBPhys, Department of Physics, University of Coimbra, 3004-516 Coimbra, Portugal
 Michela            |        | Marafini | Michela.Marafini@roma1.infn.it  | Museo Storico della Fisica e Centro Studi e Ricerche ``Enrico Fermi'', Piazza del Viminale 1, 00184, Roma, Italy
 Robert             | Renz   | Marcelo Gregorio | robert.gregorio@sheffield.ac.uk  | Department of Physics and Astronomy, University of Sheffield, Sheffield, S3 7RH, UK
 David              | Jos\'e Gaspar | Marques | david.marques@gssi.it | Gran Sasso Science Institute, 67100, L'Aquila, Italy | Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali del Gran Sasso, 67100, Assergi, Italy
 Giovanni           |        | Mazzitelli | giovanni.mazzitelli@lnf.roma1.infn.it | Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali  di Frascati,  00044, Frascati, Italy
 Alasdair           | Gregor | McLean | ali.mclean@sheffield.ac.uk | Department of Physics and Astronomy, University of Sheffield, Sheffield, S3 7RH, UK
 Andrea             |        | Messina | andrea.messina@uniroma1.it | Dipartimento di Fisica, Universit\`a La Sapienza di Roma, 00185, Roma, Italy | Istituto Nazionale di Fisica Nucleare, Sezione di Roma, 00185, Rome, Italy 
-Cristina Maria     | Bernardes | Monteiro | cristinam@uc.pt | LIBPhys, Department of Physics, University of Coimbra, 3004-516 Coimbra, Portugal
+Cristina      | Maria Bernardes | Monteiro | cristinam@uc.pt | LIBPhys, Department of Physics, University of Coimbra, 3004-516 Coimbra, Portugal
 Rafael             | Antunes | Nobrega | rafael.nobrega@ufjf.edu.br | Universidade Federal de Juiz de Fora, Faculdade de Engenharia, 36036-900, Juiz de Fora, MG, Brasil
 Igor               | Fonseca | Pains | igor.pains@ufjf.edu.br | Universidade Federal de Juiz de Fora, Faculdade de Engenharia, 36036-900, Juiz de Fora, MG, Brasil
 Emiliano           |         | Paoletti | Emiliano.Paoletti@lnf.infn.it | Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali  di Frascati,  00044, Frascati, Italy
@@ -44,7 +44,7 @@ Francesco          |         | Renga | francesco.renga@roma1.infn.it | Istituto 
 Rita               | Cruz    | Roque | ritaroque@fis.uc.pt | LIBPhys, Department of Physics, University of Coimbra, 3004-516 Coimbra, Portugal
 Filippo            |         | Rosatelli | filippo.rosatelli@lnf.infn.it | Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali  di Frascati,  00044, Frascati, Italy
 Andrea             |         | Russo | arusso@lnf.infn.it | Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali  di Frascati,  00044, Frascati, Italy
-Joaquim            | Marques Ferreira dos | Santos | jmf@uc.pt | LIBPhys, Department of Physics, University of Coimbra, 3004-516 Coimbra, Portugal
+Joaquim            | Marques Ferreira  | dos Santos | jmf@uc.pt | LIBPhys, Department of Physics, University of Coimbra, 3004-516 Coimbra, Portugal
 Giovanna           |         | Saviano | giovanna.saviano@cern.ch | Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali  di Frascati,  00044, Frascati, Italy | Dipartimento di Ingegneria Chimica, Materiali e Ambiente, Sapienza Universit\`a di Roma, 00185, Roma, Italy
 Neil               | John Curwen  | Spooner | n.spooner@sheffield.ac.uk | Department of Physics and Astronomy, University of Sheffield, Sheffield, S3 7RH, UK
 Roberto            |         | Tesauro | Roberto.Tesauro@lnf.infn.it | Istituto Nazionale di Fisica Nucleare, Laboratori Nazionali  di Frascati,  00044, Frascati, Italy

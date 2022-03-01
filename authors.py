@@ -15,7 +15,8 @@ if __name__ == "__main__":
 
     data = []
     with open(options.datafile, newline='') as csvfile:
-        reader = csv.reader(csvfile, delimiter='|')
+        # initially the delimiter was "|" and "," aregular char in the institute. I changed it to make the table nicely appearing in the web
+        reader = csv.reader(csvfile, delimiter=',')
         for row in reader:
             if len(row)<1 or row[0].startswith("#"):
                 continue
@@ -65,7 +66,7 @@ if __name__ == "__main__":
         fout.write("\n\n%CYGNO institutions\n")
         affiliations = []
         for inst,k in aff_with_keys.items():
-            formatted_inst = affiliation_fmt.format(instkey=k,inst_fullname=inst) + "\n"
+            formatted_inst = affiliation_fmt.format(instkey=k,inst_fullname=inst.replace(";",",")) + "\n"
             fout.write(formatted_inst)
             affiliations.append(formatted_inst)
             

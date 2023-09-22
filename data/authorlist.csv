@@ -1,8 +1,10 @@
 # First Name , Middle Name , Last Name   , e-mail , Institution 1 , Institution 2 ...
 Fernando           , Domingues , Amaro       , famaro@uc.pt , LIBPhys; Department of Physics; University of Coimbra; 3004-516 Coimbra; Portugal ,
+Rita               ,       , Antonietti  , rita.antonietti@uniroma3.it , Dipartimento di Matematica e Fisica; Universit\`a Roma TRE; 00146; Roma; Italy , Istituto Nazionale di Fisica Nucleare; Sezione di Roma Tre; 00146; Rome; Italy
 Elisabetta         ,       , Baracchini  , elisabetta.baracchini@gssi.it , Gran Sasso Science Institute; 67100; L'Aquila; Italy , Istituto Nazionale di Fisica Nucleare; Laboratori Nazionali del Gran Sasso; 67100; Assergi; Italy
 Luigi              ,       , Benussi     , luigi.benussi@lnf.infn.it  , Istituto Nazionale di Fisica Nucleare; Laboratori Nazionali  di Frascati;  00044; Frascati; Italy, 
 Stefano            ,       , Bianco      , stefano.bianco@lnf.infn.it , Istituto Nazionale di Fisica Nucleare; Laboratori Nazionali  di Frascati;  00044; Frascati; Italy, 
+Francesco           ,        , Borra  , borra.1763039@studenti.uniroma1.it , Dipartimento di Fisica; Universit\`a La Sapienza di Roma; 00185; Roma; Italy , Istituto Nazionale di Fisica Nucleare; Sezione di Roma; 00185; Rome; Italy 
 Cesidio            ,       , Capoccia    , cesidio.capoccia@lnf.infn.it  , Istituto Nazionale di Fisica Nucleare; Laboratori Nazionali  di Frascati;  00044; Frascati; Italy, 
 Michele            ,       , Caponero    , caponero@enea.it , Istituto Nazionale di Fisica Nucleare; Laboratori Nazionali  di Frascati;  00044; Frascati; Italy , ENEA Centro Ricerche Frascati; 00044; Frascati; Italy 
 Danilo             , Santos , Cardoso , dsantoscardoso@outlook.com , Centro Brasileiro de Pesquisas F\'isicas; Rio de Janeiro 22290-180; RJ; Brazil, 
@@ -15,6 +17,7 @@ Emanuele           ,        , Di Marco  , emanuele.dimarco@roma1.infn.it , Istit
 Giulia             ,        , D'Imperio , giulia.dimperio@roma1.infn.it  , Istituto Nazionale di Fisica Nucleare; Sezione di Roma; 00185; Rome; Italy, 
 Francesco          ,        , Iacoangeli , Francesco.iacoangeli@roma1.infn.it , Istituto Nazionale di Fisica Nucleare; Sezione di Roma; 00185; Rome; Italy, 
 Herman             , Pessoa , Lima J\’unior , hlima@cbpf.br , Centro Brasileiro de Pesquisas Físicas; Rio de Janeiro 22290-180; RJ; Brazil, 
+Ernesto            ,        , Kemp , kemp@unicamp.br , Universidade Estadual de Campinas  - UNICAMP;  Campinas 13083-859; SP; Brazil , Gran Sasso Science Institute; 67100; L'Aquila; Italy
 Guilherme          , Sebastiao Pinheiro , Lopes , guilherme.lopes@engenharia.ufjf.br , Universidade Federal de Juiz de Fora; Faculdade de Engenharia; 36036-900; Juiz de Fora; MG; Brasil, 
 Giovanni           ,        , Maccarrone , giovanni.maccarrone@lnf.infn.it , Istituto Nazionale di Fisica Nucleare; Laboratori Nazionali  di Frascati;  00044; Frascati; Italy, 
 Rui          , Daniel Passos , Mano , RDPMano@uc.pt , LIBPhys; Department of Physics; University of Coimbra; 3004-516 Coimbra; Portugal, 
@@ -22,6 +25,7 @@ Robert             , Renz   , Marcelo Gregorio , robert.gregorio@sheffield.ac.uk
 David              , Jos\'e Gaspar , Marques , david.marques@gssi.it , Gran Sasso Science Institute; 67100; L'Aquila; Italy , Istituto Nazionale di Fisica Nucleare; Laboratori Nazionali del Gran Sasso; 67100; Assergi; Italy
 Giovanni           ,        , Mazzitelli , giovanni.mazzitelli@lnf.infn.it , Istituto Nazionale di Fisica Nucleare; Laboratori Nazionali  di Frascati;  00044; Frascati; Italy, 
 Alasdair           , Gregor , McLean , ali.mclean@sheffield.ac.uk , Department of Physics and Astronomy; University of Sheffield; Sheffield; S3 7RH; UK, 
+Pietro             ,        , Meloni , pietro.meloni@uniroma3.it   , Dipartimento di Matematica e Fisica; Universit\`a Roma TRE; 00146; Roma; Italy , Istituto Nazionale di Fisica Nucleare; Sezione di Roma Tre; 00146; Rome; Italy
 Andrea             ,        , Messina , andrea.messina@uniroma1.it , Dipartimento di Fisica; Universit\`a La Sapienza di Roma; 00185; Roma; Italy , Istituto Nazionale di Fisica Nucleare; Sezione di Roma; 00185; Rome; Italy 
 Cristina      , Maria Bernardes , Monteiro , cristinam@uc.pt , LIBPhys; Department of Physics; University of Coimbra; 3004-516 Coimbra; Portugal, 
 Rafael             , Antunes , Nobrega , rafael.nobrega@ufjf.edu.br , Universidade Federal de Juiz de Fora; Faculdade de Engenharia; 36036-900; Juiz de Fora; MG; Brasil, 
@@ -45,3 +49,4 @@ Neil               , John Curwen  , Spooner , n.spooner@sheffield.ac.uk , Depart
 Roberto            ,         , Tesauro , Roberto.Tesauro@lnf.infn.it , Istituto Nazionale di Fisica Nucleare; Laboratori Nazionali  di Frascati;  00044; Frascati; Italy, 
 Sandro             ,         , Tomassini , sandro.tomassini@lnf.infn.it , Istituto Nazionale di Fisica Nucleare; Laboratori Nazionali  di Frascati;  00044; Frascati; Italy, 
 Samuele            ,         , Torelli , samuele.torelli@gssi.it , Gran Sasso Science Institute; 67100; L'Aquila; Italy , Istituto Nazionale di Fisica Nucleare; Laboratori Nazionali del Gran Sasso; 67100; Assergi; Italy
+Donatella           ,        , Tozzi  ,  , Dipartimento di Fisica; Universit\`a La Sapienza di Roma; 00185; Roma; Italy , Istituto Nazionale di Fisica Nucleare; Sezione di Roma; 00185; Rome; Italy 

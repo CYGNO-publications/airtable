@@ -25,8 +25,9 @@ if __name__ == "__main__":
 
 
     # sort in alphabetical order of second name
-    sorted_data = sorted(data, key=lambda x: x[0][2], reverse=False)
-
+    # sorted_data = sorted(data, key=lambda x: x[0][2], reverse=False)
+    sorted_data = data
+    
     affiliations = []
     aff_with_keys = {}
     charkey = ord('a')
